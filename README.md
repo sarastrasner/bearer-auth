@@ -6,7 +6,7 @@
 
 ### Links and Resources
 
-- [Latest PR]()
+- [Latest PR](https://github.com/sarastrasner/bearer-auth/pull/6)
 - [ci/cd](https://github.com/sarastrasner/bearer-auth/actions)
 - [front-end application](https://sarastrasner-bearer-auth.herokuapp.com/) 
 
@@ -14,8 +14,10 @@
 
 #### `.env` requirements (where applicable)
 
-- `PORT` - 3000
-- `MONGODB_URI=mongodb://localhost:27017/auth`
+- MONGODB_URI=mongodb://localhost:27017/auth
+- PORT=3000
+- SECRET=BANANAS
+- ISSUER=SARA
 
 #### How to initialize/run your application (where applicable)
 
@@ -26,8 +28,6 @@
 
 - The tests all run via jest in the terminal.
 - All tests are passing.
-- I spent a lot of time looking at the Jest documentation specifically around matchers to prooerly anticipate returned data from two of my routes and couldn't figure out which matcher/parameter to uses. The closes I could get on those was `toBeDefined`.
-
 
 #### UML
 ![UML](./assets/UML.JPG)
