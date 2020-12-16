@@ -6,9 +6,9 @@
 
 ### Links and Resources
 
-- [Latest PR](https://github.com/sarastrasner/basic-auth/pull/4)
-- [ci/cd](https://github.com/sarastrasner/basic-auth/actions)
-- [front-end application](https://sarastrasner-basic-auth.herokuapp.com/) 
+- [Latest PR]()
+- [ci/cd](https://github.com/sarastrasner/bearer-auth/actions)
+- [front-end application](https://sarastrasner-bearer-auth.herokuapp.com/) 
 
 ### Setup
 

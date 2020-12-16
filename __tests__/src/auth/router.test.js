@@ -1,6 +1,7 @@
 'use strict';
 
 process.env.SECRET = "toes";
+process.env.ISSUER = "SARA";
 
 const server = require('../../../src/server.js').server;
 const supergoose = require('@code-fellows/supergoose');
